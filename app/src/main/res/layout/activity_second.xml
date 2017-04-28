@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История России. 6.класс. Тест."
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Счётчик"
+        android:textSize="40sp"
+
+        />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ответ 1"
+        android:textSize="30sp"
+
+        />
+    <TextView
+        android:id="@+id/answer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla,bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla, bla-bla-bla-bla,bla-bla-bla-bla,bla-bla-bla-bla,"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад" />
+
+        <Button
+            android:id="@+id/buttonLR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Следующий вопрос" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
